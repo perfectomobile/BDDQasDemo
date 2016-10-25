@@ -1,0 +1,26 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@amtrak",
+          "@amtrak1"
+        ],
+        "lineNo": 13,
+        "name": "amtrak - buy ticket",
+        "Perfecto-report": "<a href=\"https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-21_18_33_11_5291\" target=\"_blank\">view</a>",
+        "referece": "scenarios/Amtrak.feature",
+        "sign": "scenarios.Amtrak.feature.amtrak - buy ticket()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1477074791006,
+      "duration": 11367,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

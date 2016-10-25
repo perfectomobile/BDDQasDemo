@@ -1,0 +1,167 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "I_am_on_Google_Search_Page",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.google.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 5804
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "I_search_for",
+      "args": [
+        "[QAFTestStep]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=q, using=name}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 3553
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.name: q",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 376
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=q, using=name}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 460
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: q",
+            "{\"id\":\"1\",\"value\":[\"QAFTestStep\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 419
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=btnG, using=name}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 410
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: btnG",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 333
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "it_should_have_all_in_search_results",
+      "args": [
+        "[[\"QMetry Automation Framework\",\"QAFTestStep\"]]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=QMetry Automation Framework, using=partial link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 715
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=QMetry Automation Framework, using=partial link text}"
+          ],
+          "result": "[id: 3, id: 4]",
+          "subLogs": [],
+          "duration": 3075
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=QAFTestStep, using=partial link text}"
+          ],
+          "result": "[id: 5]",
+          "subLogs": [],
+          "duration": 718
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I am on Google Search Page",
+      "type": "TestStepPass",
+      "duration": 5805,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I search for \"QAFTestStep\"",
+      "type": "TestStepPass",
+      "duration": 5553,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then it should have following search results:[\"QMetry Automation Framework\",\"QAFTestStep\"]",
+      "type": "TestStepPass",
+      "duration": 10639,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected QMetry Automation Framework present : Actual QMetry Automation Framework present",
+          "type": "Pass",
+          "screenshot": "../img/Search QMetry with results_1ka91sww4lvoj57229.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected QAFTestStep present : Actual QAFTestStep present",
+          "type": "Pass",
+          "screenshot": "../img/Search QMetry with results_c9npmtcdk3cu57230.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

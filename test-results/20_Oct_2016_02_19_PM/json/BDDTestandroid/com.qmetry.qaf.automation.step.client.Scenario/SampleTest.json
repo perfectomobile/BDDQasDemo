@@ -1,0 +1,188 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "openNativeApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "addInto",
+      "args": [
+        "[3, 5]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=3, using=name}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 2321
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: 3",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 745
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.sec.android.app.popupcalculator:id/bt_add, using=id}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 817
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.sec.android.app.popupcalculator:id/bt_add",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 380
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=5, using=name}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 772
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: 5",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 385
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.sec.android.app.popupcalculator:id/bt_equal, using=id}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 763
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.sec.android.app.popupcalculator:id/bt_equal",
+            "{\"id\":\"3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 448
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "resultShouldBe",
+      "args": [
+        "[8]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.sec.android.app.popupcalculator:id/txtCalc, using=id}"
+          ],
+          "result": "[id: 4]",
+          "subLogs": [],
+          "duration": 731
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.sec.android.app.popupcalculator:id/txtCalc, using=id}"
+          ],
+          "result": "id: 5",
+          "subLogs": [],
+          "duration": 230
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: com.sec.android.app.popupcalculator:id/txtCalc",
+            "{\"id\":\"5\"}"
+          ],
+          "result": "getElementText:3+5\n=8. Editing",
+          "subLogs": [],
+          "duration": 339
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.sec.android.app.popupcalculator:id/txtCalc, using=id}"
+          ],
+          "result": "id: 6",
+          "subLogs": [],
+          "duration": 235
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: com.sec.android.app.popupcalculator:id/txtCalc",
+            "{\"id\":\"6\"}"
+          ],
+          "result": "getElementText:3+5\n=8. Editing",
+          "subLogs": [],
+          "duration": 224
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given open calculator",
+      "type": "TestStepPass",
+      "duration": 9,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When add 3 into 5",
+      "type": "TestStepPass",
+      "duration": 6637,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then result should be 8",
+      "type": "TestStepPass",
+      "duration": 2990,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected Input box text should be in:8 : Actual Input box text is 3+5\n=8. Editing",
+          "type": "Pass",
+          "screenshot": "../img/SampleTest_17fh1npnoktel57228.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@Web"
+        ],
+        "lineNo": 9.0,
+        "name": "Search QMetry with results",
+        "Perfecto-report": "<a href=\"https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-21_17_43_14_5203\" target=\"_blank\">view</a>",
+        "referece": "scenarios/goolge.feature",
+        "sign": "scenarios.goolge.feature.Search QMetry with results()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]"
+      },
+      "dependsOn": [],
+      "startTime": 1477071793684,
+      "duration": 24277,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@Web"
+        ],
+        "lineNo": 4.0,
+        "name": "Search QMetry",
+        "Perfecto-report": "<a href=\"https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-21_17_43_24_5213\" target=\"_blank\">view</a>",
+        "referece": "scenarios/goolge.feature",
+        "sign": "scenarios.goolge.feature.Search QMetry()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1477071793682,
+      "duration": 34562,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@amtrak",
+          "@amtrak"
+        ],
+        "lineNo": 4.0,
+        "name": "amtrak - find station",
+        "Perfecto-report": "<a href=\"https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-21_17_43_55_5218\" target=\"_blank\">view</a>",
+        "referece": "scenarios/Amtrak.feature",
+        "sign": "scenarios.Amtrak.feature.amtrak - find station()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1477071834629,
+      "duration": 21911,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@amtrak",
+          "@amtrak"
+        ],
+        "lineNo": 13,
+        "name": "amtrak - buy ticket",
+        "referece": "scenarios/Amtrak.feature",
+        "sign": "scenarios.Amtrak.feature.amtrak - buy ticket()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]"
+      },
+      "dependsOn": [],
+      "startTime": 1477071834630,
+      "duration": 52826,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

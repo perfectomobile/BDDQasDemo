@@ -1,0 +1,25 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Sample Test Scenario",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 3,
+        "name": "SampleTest",
+        "Perfecto-report": "<a href=\"https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-20_18_19_29_5114\" target=\"_blank\">view</a>",
+        "referece": "scenarios/suite1.bdd",
+        "sign": "scenarios.suite1.bdd.SampleTest()[pri:1004, instance:com.qmetry.qaf.automation.step.client.Scenario@3ec]"
+      },
+      "dependsOn": [],
+      "startTime": 1476987568684,
+      "duration": 48491,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

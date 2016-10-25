@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QAF-Gherkin-Demo" parallel="tests">
+  <test name="amtrck d1">
+    <method-selectors>
+      <method-selector>
+        <script language="beanshell">
+          <![CDATA[testngMethod.getMethodName().equalsIgnoreCase("amtrak - find station")]]>
+        </script>
+      </method-selector>
+    </method-selectors>
+    <parameter name="env.resources" value="resources/common"/>
+    <parameter name="driver.capabilities.deviceName" value="F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70"/>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"/>
+    </classes>
+  </test> <!-- amtrck d1 -->
+  <test name="amtrck d2">
+    <method-selectors>
+      <method-selector>
+        <script language="beanshell">
+          <![CDATA[testngMethod.getMethodName().equalsIgnoreCase("Amtrak-DT")]]>
+        </script>
+      </method-selector>
+    </method-selectors>
+    <parameter name="env.resources" value="resources/common"/>
+    <parameter name="driver.capabilities.deviceName" value="988667325047395643"/>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"/>
+    </classes>
+  </test> <!-- amtrck d2 -->
+</suite> <!-- QAF-Gherkin-Demo -->

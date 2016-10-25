@@ -1,0 +1,46 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@Web"
+        ],
+        "lineNo": 9.0,
+        "name": "Search QMetry with results",
+        "Perfecto-report": "<a href=\"https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-20_18_19_29_5116\" target=\"_blank\">view</a>",
+        "referece": "scenarios/goolge.feature",
+        "sign": "scenarios.goolge.feature.Search QMetry with results()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]"
+      },
+      "dependsOn": [],
+      "startTime": 1476987568672,
+      "duration": 34124,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@Web"
+        ],
+        "lineNo": 4,
+        "name": "Search QMetry",
+        "Perfecto-report": "<a href=\"https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-20_18_19_29_5113\" target=\"_blank\">view</a>",
+        "referece": "scenarios/goolge.feature",
+        "sign": "scenarios.goolge.feature.Search QMetry()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1476987568671,
+      "duration": 41764,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

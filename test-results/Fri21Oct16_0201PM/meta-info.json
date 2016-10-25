@@ -1,0 +1,13 @@
+{
+  "name": "QAF-Gherkin-Demo",
+  "status": "fail",
+  "tests": [
+    "GherkinTest"
+  ],
+  "total": 2,
+  "pass": 0,
+  "fail": 1,
+  "skip": 1,
+  "startTime": 1477072918353,
+  "endTime": 1477072946147
+}

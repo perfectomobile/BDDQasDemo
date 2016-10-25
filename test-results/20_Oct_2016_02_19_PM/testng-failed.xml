@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="100" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [QAF-Gherkin-Demo]" parallel="tests">
+  <parameter name="env.resources" value="resources/common;resources/ios"/>
+  <test thread-count="10" name="GherkinTest" parallel="methods">
+    <method-selectors>
+      <method-selector>
+        <selector-class name="com.qmetry.qaf.automation.testng.pro.QAFMethodSelector" priority="1"/>
+      </method-selector>
+    </method-selectors>
+    <groups>
+      <run>
+        <include name="@Web"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+    </classes>
+  </test> <!-- GherkinTest -->
+  <test name="BDD Test android">
+    <method-selectors>
+      <method-selector>
+        <selector-class name="com.qmetry.qaf.automation.testng.pro.QAFMethodSelector" priority="1"/>
+      </method-selector>
+    </method-selectors>
+    <parameter name="env.resources" value="resources/common;resources/android"/>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"/>
+    </classes>
+  </test> <!-- BDD Test android -->
+  <test name="BDD Test ios">
+    <method-selectors>
+      <method-selector>
+        <selector-class name="com.qmetry.qaf.automation.testng.pro.QAFMethodSelector" priority="1"/>
+      </method-selector>
+    </method-selectors>
+    <parameter name="env.resources" value="resources/common;resources/ios"/>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"/>
+    </classes>
+  </test> <!-- BDD Test ios -->
+  <test name="GherkinTest(failed)" parallel="methods">
+    <groups>
+      <run>
+        <include name="@Web"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="scenario"/>
+          <include name="afterSuit"/>
+          <include name="setupSuit"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </classes>
+  </test> <!-- GherkinTest(failed) -->
+</suite> <!-- Failed suite [QAF-Gherkin-Demo] -->

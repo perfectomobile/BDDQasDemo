@@ -1,0 +1,14 @@
+{
+  "name": "QAF-Gherkin-Demo",
+  "status": "fail",
+  "tests": [
+    "amtrckd1",
+    "amtrckd2"
+  ],
+  "total": 8,
+  "pass": 5,
+  "fail": 3,
+  "skip": 0,
+  "startTime": 1477076774928,
+  "endTime": 1477076862839
+}

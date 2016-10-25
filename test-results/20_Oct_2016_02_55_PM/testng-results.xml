@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I open browser to webpage "http://amtrak.com"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I click on "train.status"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I click on "find.Station"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I click on "Station.abl"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I enter "45" to "bus.number"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I click on "status.button"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I open browser to webpage "http://amtrak.com"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I wait "20" seconds for "buy.ticket" to appear</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I click on "buy.ticket"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I enter "NYP" to "ticket.from"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I enter "BBY" to "ticket.to"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I scroll down</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I click on "find.train"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I wait for "2" seconds</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I click on "continue"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I must see text "Departure"</div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="QAF-Gherkin-Demo" duration-ms="64879" started-at="2016-10-20T18:55:45Z" finished-at="2016-10-20T18:56:50Z">
+    <groups>
+      <group name="@amtrak">
+        <method signature="scenarios.Amtrak.feature.amtrak - buy ticket()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" name="amtrak - buy ticket" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+        <method signature="scenarios.Amtrak.feature.amtrak - find station()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="amtrak - find station" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- @amtrak -->
+    </groups>
+    <test name="GherkinTest" duration-ms="64879" started-at="2016-10-20T18:55:45Z" finished-at="2016-10-20T18:56:50Z">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="amtrak - find station" name="setupSuit" is-config="true" duration-ms="14" started-at="2016-10-20T14:55:45Z" finished-at="2016-10-20T14:55:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@35083305]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="amtrak - find station" name="setupTest" is-config="true" duration-ms="1" started-at="2016-10-20T14:55:45Z" finished-at="2016-10-20T14:55:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@35083305]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="amtrak - find station" name="setup" is-config="true" duration-ms="3" started-at="2016-10-20T14:55:45Z" finished-at="2016-10-20T14:55:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@35083305]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="amtrak - buy ticket" name="setup" is-config="true" duration-ms="3" started-at="2016-10-20T14:55:45Z" finished-at="2016-10-20T14:55:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@35083305]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="amtrak - find station" name="setupMethod" is-config="true" duration-ms="1" started-at="2016-10-20T14:55:45Z" finished-at="2016-10-20T14:55:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@35083305]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="amtrak - find station()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="amtrak - find station" name="amtrak - find station" duration-ms="19985" started-at="2016-10-20T14:55:45Z" finished-at="2016-10-20T14:56:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I open browser to webpage "http://amtrak.com"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I click on "train.status"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I click on "find.Station"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I click on "Station.abl"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I enter "45" to "bus.number"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I click on "status.button"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amtrak - find station -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="amtrak - buy ticket" name="setupMethod" is-config="true" duration-ms="1" started-at="2016-10-20T14:55:45Z" finished-at="2016-10-20T14:55:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@35083305]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="amtrak - buy ticket()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="amtrak - buy ticket" name="amtrak - buy ticket" duration-ms="64806" started-at="2016-10-20T14:55:45Z" finished-at="2016-10-20T14:56:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I open browser to webpage "http://amtrak.com"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I wait "20" seconds for "buy.ticket" to appear</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I click on "buy.ticket"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I enter "NYP" to "ticket.from"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I enter "BBY" to "ticket.to"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I scroll down</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I click on "find.train"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I wait for "2" seconds</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I click on "continue"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I must see text "Departure"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amtrak - buy ticket -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="amtrak - find station" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-10-20T14:56:05Z" finished-at="2016-10-20T14:56:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@35083305]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=amtrak - find station status=SUCCESS method=scenarios.Amtrak.feature.amtrak - find station()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I open browser to webpage "http://amtrak.com"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I click on "train.status"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I click on "find.Station"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I click on "Station.abl"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I enter "45" to "bus.number"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I click on "status.button"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="amtrak - find station" name="afterClass" is-config="true" duration-ms="0" started-at="2016-10-20T14:56:05Z" finished-at="2016-10-20T14:56:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@35083305]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="amtrak - buy ticket" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-10-20T14:56:50Z" finished-at="2016-10-20T14:56:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@35083305]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=amtrak - buy ticket status=SUCCESS method=scenarios.Amtrak.feature.amtrak - buy ticket()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I open browser to webpage "http://amtrak.com"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I wait "20" seconds for "buy.ticket" to appear</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I click on "buy.ticket"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I enter "NYP" to "ticket.from"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I enter "BBY" to "ticket.to"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I scroll down</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I click on "find.train"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I wait for "2" seconds</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I click on "continue"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I must see text "Departure"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="amtrak - buy ticket" name="afterClass" is-config="true" duration-ms="0" started-at="2016-10-20T14:56:50Z" finished-at="2016-10-20T14:56:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@35083305]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="amtrak - find station" name="afterTest" is-config="true" duration-ms="1" started-at="2016-10-20T14:56:50Z" finished-at="2016-10-20T14:56:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@35083305]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </test> <!-- GherkinTest -->
+  </suite> <!-- QAF-Gherkin-Demo -->
+</testng-results>

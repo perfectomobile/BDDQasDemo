@@ -1,0 +1,59 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "number": "20"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@amtrak",
+          "@amtrak"
+        ],
+        "JSON_DATA_TABLE": "[{\"number\":\"20\"},{\"number\":\"30\"}]",
+        "lineNo": 27.0,
+        "name": "Amtrak-DT",
+        "Perfecto-report": "<a href=\"https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-25_10_44_04_5432\" target=\"_blank\">view</a>",
+        "referece": "scenarios/Amtrak.feature",
+        "sign": "scenarios.Amtrak.feature.Amtrak-DT( java.util.Map)[pri:1005, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]"
+      },
+      "dependsOn": [],
+      "startTime": 1477392297371,
+      "duration": 13007,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "number": "30"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@amtrak",
+          "@amtrak"
+        ],
+        "JSON_DATA_TABLE": "[{\"number\":\"20\"},{\"number\":\"30\"}]",
+        "lineNo": 27,
+        "name": "Amtrak-DT",
+        "Perfecto-report": "<a href=\"https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-25_10_44_04_5432\" target=\"_blank\">view</a>",
+        "referece": "scenarios/Amtrak.feature",
+        "resultFileName": "Amtrak-DTygB",
+        "sign": "scenarios.Amtrak.feature.Amtrak-DT( java.util.Map)[pri:1005, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]"
+      },
+      "dependsOn": [],
+      "startTime": 1477392310469,
+      "duration": 32082,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

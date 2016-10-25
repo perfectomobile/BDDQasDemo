@@ -1,0 +1,25 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@amtrak",
+          "@amtrak"
+        ],
+        "lineNo": 13,
+        "name": "amtrak - buy ticket",
+        "referece": "scenarios/Amtrak.feature",
+        "sign": "scenarios.Amtrak.feature.amtrak - buy ticket()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]"
+      },
+      "dependsOn": [],
+      "startTime": 1476987693142,
+      "duration": 447,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

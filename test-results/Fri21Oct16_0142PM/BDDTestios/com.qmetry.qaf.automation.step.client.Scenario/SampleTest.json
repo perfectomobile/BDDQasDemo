@@ -1,0 +1,188 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "openNativeApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "addInto",
+      "args": [
+        "[3, 5]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=3, using=name}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 2718
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: 3",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1633
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=add, using=name}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 2847
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: add",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 780
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=5, using=name}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 2833
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: 5",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1880
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=equals, using=name}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 4012
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: equals",
+            "{\"id\":\"3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1476
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "resultShouldBe",
+      "args": [
+        "[8]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Result'], using=xpath}"
+          ],
+          "result": "[id: 4]",
+          "subLogs": [],
+          "duration": 4742
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name='Result'], using=xpath}"
+          ],
+          "result": "id: 5",
+          "subLogs": [],
+          "duration": 4289
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@name='Result']",
+            "{\"id\":\"5\"}"
+          ],
+          "result": "getElementText:8",
+          "subLogs": [],
+          "duration": 2313
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name='Result'], using=xpath}"
+          ],
+          "result": "id: 6",
+          "subLogs": [],
+          "duration": 4522
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@name='Result']",
+            "{\"id\":\"6\"}"
+          ],
+          "result": "getElementText:8",
+          "subLogs": [],
+          "duration": 1985
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given open calculator",
+      "type": "TestStepPass",
+      "duration": 11,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When add 3 into 5",
+      "type": "TestStepPass",
+      "duration": 18186,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then result should be 8",
+      "type": "TestStepPass",
+      "duration": 19432,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected Input box text should be in:8 : Actual Input box text is 8",
+          "type": "Pass",
+          "screenshot": "img/SampleTest_1lybn7jet028i42158.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

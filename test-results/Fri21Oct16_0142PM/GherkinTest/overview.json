@@ -1,0 +1,35 @@
+{
+  "total": 4,
+  "pass": 3,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario",
+    "com.qmetry.qaf.automation.step.client.DataDrivenScenario"
+  ],
+  "envInfo": {
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "9-RC3",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "21-Oct-2016 13:28:13"
+    },
+    "run-parameters": {
+      "baseurl": "http://www.google.com",
+      "resources": "resources/common"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_45",
+      "os.arch": "x86_64",
+      "host": "UziMac.local",
+      "os.name": "Mac OS X",
+      "user.name": "uzie",
+      "os.version": "10.11.1"
+    }
+  },
+  "startTime": 1477071747006,
+  "endTime": 1477071771934
+}

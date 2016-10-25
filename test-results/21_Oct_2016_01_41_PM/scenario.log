@@ -1,0 +1,30 @@
+13:41:55 scenario.file.loc[Ljava.lang.String;@2bbf4b8b
+13:41:56 loading feature file: /Users/uzie/Documents/dev/workspace/QAFGherkin/./scenarios/Amtrak.feature
+13:41:56 loading feature file: /Users/uzie/Documents/dev/workspace/QAFGherkin/./scenarios/demo.feature
+13:41:56 Excluded SCENARIO - Say Hi:null
+13:41:56 Excluded SCENARIO - Say hello should skip:null
+13:41:56 Excluded SCENARIO - Using Gherkin examples table:null
+13:41:56 Excluded SCENARIO - Using QAF data-provider:null
+13:41:56 loading feature file: /Users/uzie/Documents/dev/workspace/QAFGherkin/./scenarios/goolge.feature
+13:41:56 Excluded SCENARIO - Search QMetry:null
+13:41:56 Excluded SCENARIO - Search QMetry with results:null
+13:41:56 Excluded SCENARIO - Search Keyword:null
+13:41:56 loading feature file: /Users/uzie/Documents/dev/workspace/QAFGherkin/./scenarios/restwsdemo.feature
+13:41:56 Excluded SCENARIO - Basic example:null
+13:41:56 total test found: 2
+13:42:02 
+
+Executing scenario: amtrak - find station - 
+13:42:02 Invoking Teststep: Given I open browser to webpage "http://amtrak.com" with arguments: [http://amtrak.com]
+13:42:06 Completed Teststep: Given I open browser to webpage "http://amtrak.com" with arguments: [http://amtrak.com]
+13:42:06 Invoking Teststep: Then I click on "train.status" with arguments: [train.status]
+13:42:10 Completed Teststep: Then I click on "train.status" with arguments: [train.status]
+13:42:10 Invoking Teststep: Then I click on "find.Station" with arguments: [find.Station]
+13:42:14 Completed Teststep: Then I click on "find.Station" with arguments: [find.Station]
+13:42:14 Invoking Teststep: Then I click on "Station.abl" with arguments: [Station.abl]
+13:42:17 Completed Teststep: Then I click on "Station.abl" with arguments: [Station.abl]
+13:42:17 Invoking Teststep: Then I enter "45" to "bus.number" with arguments: [45, bus.number]
+13:42:19 Completed Teststep: Then I enter "45" to "bus.number" with arguments: [45, bus.number]
+13:42:19 Invoking Teststep: Then I click on "status.button" with arguments: [status.button]
+13:42:19 Completed Teststep: Then I click on "status.button" with arguments: [status.button]
+13:42:19 Competed scenario: amtrak - find station with status SUCESS

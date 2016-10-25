@@ -1,0 +1,141 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "I_am_on_Google_Search_Page",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.google.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 242
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "I_search_for",
+      "args": [
+        "[Selenium ISFW]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=q, using=name}"
+          ],
+          "result": "id: 5",
+          "subLogs": [],
+          "duration": 1737
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.name: q",
+            "{\"id\":\"5\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 365
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=q, using=name}"
+          ],
+          "result": "id: 6",
+          "subLogs": [],
+          "duration": 472
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: q",
+            "{\"id\":\"6\",\"value\":[\"Selenium ISFW\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 469
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=btnG, using=name}"
+          ],
+          "result": "id: 7",
+          "subLogs": [],
+          "duration": 494
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: btnG",
+            "{\"id\":\"7\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 388
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "it_should_have_in_search_results",
+      "args": [
+        "[InfoStretch Test Automation Framework]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=InfoStretch Test Automation Framework, using=partial link text}"
+          ],
+          "result": "[id: 8]",
+          "subLogs": [],
+          "duration": 3400
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I am on Google Search Page",
+      "type": "TestStepPass",
+      "duration": 243,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I search for \"Selenium ISFW\"",
+      "type": "TestStepPass",
+      "duration": 3929,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then it should have \"InfoStretch Test Automation Framework\" in search results",
+      "type": "TestStepPass",
+      "duration": 6654,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected InfoStretch Test Automation Framework present : Actual InfoStretch Test Automation Framework present",
+          "type": "Pass",
+          "screenshot": "img/Search Keyword_s3i8gh9g6dpn42156.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

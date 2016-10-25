@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [QAF-Gherkin-Demo]" parallel="methods">
+  <parameter name="env.resources" value="resources/common"/>
+  <parameter name="driver.capabilities.deviceName" value="F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70"/>
+  <test name="GherkinTest">
+    <method-selectors>
+      <method-selector>
+        <selector-class name="com.qmetry.qaf.automation.testng.pro.QAFMethodSelector" priority="1"/>
+      </method-selector>
+    </method-selectors>
+    <parameter name="env.resources" value="resources/common"/>
+    <parameter name="driver.capabilities.deviceName" value="F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70"/>
+    <groups>
+      <run>
+        <include name="@amtrak"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+    </classes>
+  </test> <!-- GherkinTest -->
+</suite> <!-- Failed suite [QAF-Gherkin-Demo] -->

@@ -1,0 +1,26 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@amtrak",
+          "@amtrak"
+        ],
+        "lineNo": 4,
+        "name": "amtrak - find station",
+        "Perfecto-report": "<a href=\"https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-21_18_05_30_5242\" target=\"_blank\">view</a>",
+        "referece": "scenarios/Amtrak.feature",
+        "sign": "scenarios.Amtrak.feature.amtrak - find station()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1477073129758,
+      "duration": 21529,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

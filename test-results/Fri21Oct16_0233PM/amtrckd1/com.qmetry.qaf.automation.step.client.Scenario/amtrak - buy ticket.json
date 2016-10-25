@@ -1,0 +1,216 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "navigateToURL",
+      "args": [
+        "[http://amtrak.com]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://amtrak.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2969
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "waitToAppear",
+      "args": [
+        "[20, buy.ticket]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[text()=\"Buy Tickets\"], using=xpath}"
+          ],
+          "result": "[id: 0]",
+          "subLogs": [],
+          "duration": 918
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClick",
+      "args": [
+        "[buy.ticket]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[text()=\"Buy Tickets\"], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 704
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[text()=\"Buy Tickets\"]",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "Failed to execute command webpage.element click: clickElement command failed. Reason: handset server: Document unloaded while waiting for result\nCommand duration or timeout: 390 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '172.21.31.20', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-21_18_33_11_5291, entityType=remote_web_driver, deviceName=F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70, serverConnector=, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-10-21_18_33_11_5291, password=, webdriver.remote.sessionid=b7439cec-28eb-432b-8d3f-eb7717d87ef4, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161021/RemoteWebDriver_16-10-21_18_33_11_5291.xml&ownerId=uzie@perfectomobile.com&sharingCode=2b604fd7-3437-4e1b-9f34-1def72564796, locationContextEnabled=true, takesScreenshot=true, browserName=MobileOS, scriptName=RemoteWebDriver, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/161021/RemoteWebDriver_16-10-21_18_33_11_5291.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161021/RemoteWebDriver_16-10-21_18_33_11_5291.xml&ownerId=uzie@perfectomobile.com&sharingCode=2b604fd7-3437-4e1b-9f34-1def72564796, user=, cssSelectorsEnabled=true}]\nSession ID: b7439cec-28eb-432b-8d3f-eb7717d87ef4",
+          "subLogs": [],
+          "duration": 395
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I enter \"NYP\" to \"ticket.from\"",
+      "args": [
+        "[NYP, ticket.from]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I enter \"BBY\" to \"ticket.to\"",
+      "args": [
+        "[BBY, ticket.to]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I scroll down",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I click on \"find.train\"",
+      "args": [
+        "[find.train]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I wait for \"2\" seconds",
+      "args": [
+        "[2]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I click on \"continue\"",
+      "args": [
+        "[continue]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I must see text \"Departure\"",
+      "args": [
+        "[Departure]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I open browser to webpage \"http://amtrak.com\"",
+      "type": "TestStepPass",
+      "duration": 2977,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I wait 20 seconds for \"buy.ticket\" to appear",
+      "type": "TestStepPass",
+      "duration": 924,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"buy.ticket\"",
+      "type": "TestStepFail",
+      "screenshot": "img/amtrak - buy ticket_c0jem4gi14i359150.png",
+      "duration": 1105,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Failed to execute command webpage.element click: clickElement command failed. Reason: handset server: Document unloaded while waiting for result\nCommand duration or timeout: 390 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '172.21.31.20', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-21_18_33_11_5291, entityType=remote_web_driver, deviceName=F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70, serverConnector=, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-10-21_18_33_11_5291, password=, webdriver.remote.sessionid=b7439cec-28eb-432b-8d3f-eb7717d87ef4, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161021/RemoteWebDriver_16-10-21_18_33_11_5291.xml&ownerId=uzie@perfectomobile.com&sharingCode=2b604fd7-3437-4e1b-9f34-1def72564796, locationContextEnabled=true, takesScreenshot=true, browserName=MobileOS, scriptName=RemoteWebDriver, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/161021/RemoteWebDriver_16-10-21_18_33_11_5291.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161021/RemoteWebDriver_16-10-21_18_33_11_5291.xml&ownerId=uzie@perfectomobile.com&sharingCode=2b604fd7-3437-4e1b-9f34-1def72564796, user=, cssSelectorsEnabled=true}]\nSession ID: b7439cec-28eb-432b-8d3f-eb7717d87ef4",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then I enter \"NYP\" to \"ticket.from\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I enter \"BBY\" to \"ticket.to\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I scroll down",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"find.train\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I wait for \"2\" seconds",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"continue\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I must see text \"Departure\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.WebDriverException: Failed to execute command webpage.element click: clickElement command failed. Reason: handset server: Document unloaded while waiting for result\nCommand duration or timeout: 390 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '172.21.31.20', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-21_18_33_11_5291, entityType=remote_web_driver, deviceName=F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70, serverConnector=, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-10-21_18_33_11_5291, password=, webdriver.remote.sessionid=b7439cec-28eb-432b-8d3f-eb7717d87ef4, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161021/RemoteWebDriver_16-10-21_18_33_11_5291.xml&ownerId=uzie@perfectomobile.com&sharingCode=2b604fd7-3437-4e1b-9f34-1def72564796, locationContextEnabled=true, takesScreenshot=true, browserName=MobileOS, scriptName=RemoteWebDriver, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/161021/RemoteWebDriver_16-10-21_18_33_11_5291.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161021/RemoteWebDriver_16-10-21_18_33_11_5291.xml&ownerId=uzie@perfectomobile.com&sharingCode=2b604fd7-3437-4e1b-9f34-1def72564796, user=, cssSelectorsEnabled=true}]\nSession ID: b7439cec-28eb-432b-8d3f-eb7717d87ef4\n\tat .Then I click on \"buy.ticket\"(scenarios/Amtrak.feature:16)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:244)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:240)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)\n\tat com.qmetry.qaf.automation.step.CommonStep.click(CommonStep.java:612)\n\tat com.sample.automation.common.steps.PerfectoApplicationSteps.iClick(PerfectoApplicationSteps.java:223)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:154)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:148)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:130)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:148)\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:196)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\nCaused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '172.21.31.20', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: driver.version: QAFExtendedWebDriver\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:244)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:240)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)\n\tat com.qmetry.qaf.automation.step.CommonStep.click(CommonStep.java:612)\n\tat com.sample.automation.common.steps.PerfectoApplicationSteps.iClick(PerfectoApplicationSteps.java:223)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:497)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:154)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:148)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:130)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:148)\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:196)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:497)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:643)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:806)\n\tat org.testng.TestRunner.run(TestRunner.java:656)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:39)\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)\n\tat org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)\n\t... 4 more\nCaused by: java.lang.RuntimeException: Failed to execute command webpage.element click: clickElement command failed. Reason: handset server: Document unloaded while waiting for result\n\tat com.perfectomobile.selenium.MobileEntity.processCommonResponse(MobileEntity.java:98)\n\tat com.perfectomobile.selenium.MobileDevice.processResponse(MobileDevice.java:510)\n\tat com.perfectomobile.selenium.MobileApplication.processResponse(MobileApplication.java:54)\n\tat com.perfectomobile.selenium.dom.MobileDOMApplication.processResponse(MobileDOMApplication.java:463)\n\tat com.perfectomobile.selenium.MobileElement.processResponse(MobileElement.java:82)\n\tat com.perfectomobile.selenium.MobileEntity.executeCommand(MobileEntity.java:57)\n\tat com.perfectomobile.selenium.MobileEntity.executeCommand(MobileEntity.java:50)\n\tat com.perfectomobile.selenium.MobileElement.click(MobileElement.java:144)\n\tat sun.reflect.GeneratedMethodAccessor2187.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:334)\n\tat com.sun.proxy.$Proxy283.click(Unknown Source)\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:347)\n\tat sun.reflect.GeneratedMethodAccessor2187.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)\n\tat com.sun.proxy.$Proxy284.click(Unknown Source)\n\tat org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)\n\tat org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:22)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat org.openqa.selenium.remote.server.MobileDefaultSession$1.run(MobileDefaultSession.java:182)\n\t... 3 more\n"
+}

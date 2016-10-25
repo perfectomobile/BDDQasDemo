@@ -1,0 +1,230 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "navigateToURL",
+      "args": [
+        "[http://amtrak.com]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://amtrak.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 3061
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClick",
+      "args": [
+        "[train.status]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[text()=\"Train Status\"], using=xpath}"
+          ],
+          "result": "id: 13",
+          "subLogs": [],
+          "duration": 1765
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[text()=\"Train Status\"]",
+            "{\"id\":\"13\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 523
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClick",
+      "args": [
+        "[find.Station]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//*[@value='Find a Station' and @type='submit'])[2], using=xpath}"
+          ],
+          "result": "Element with by xpath '(//*[@value='Find a Station' and @type='submit'])[2]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'Beta-MCM', ip: '1.1.95.10', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 377 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '172.21.31.20', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-21_19_06_15_5302, entityType=remote_web_driver, deviceName=F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70, serverConnector=, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-10-21_19_06_15_5302, password=, webdriver.remote.sessionid=95efe9b2-9973-4257-880b-d933e0802f2c, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161021/RemoteWebDriver_16-10-21_19_06_15_5302.xml&ownerId=uzie@perfectomobile.com&sharingCode=58e0f381-2870-4e61-b595-c2be13b8b71a, locationContextEnabled=true, takesScreenshot=true, browserName=MobileOS, scriptName=RemoteWebDriver, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/161021/RemoteWebDriver_16-10-21_19_06_15_5302.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161021/RemoteWebDriver_16-10-21_19_06_15_5302.xml&ownerId=uzie@perfectomobile.com&sharingCode=58e0f381-2870-4e61-b595-c2be13b8b71a, user=, cssSelectorsEnabled=true}]\nSession ID: 95efe9b2-9973-4257-880b-d933e0802f2c\n*** Element info: {Using=xpath, value=(//*[@value='Find a Station' and @type='submit'])[2]}",
+          "subLogs": [],
+          "duration": 377
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//*[@value='Find a Station' and @type='submit'])[2], using=xpath}"
+          ],
+          "result": "id: 14",
+          "subLogs": [],
+          "duration": 1152
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: (//*[@value='Find a Station' and @type='submit'])[2]",
+            "{\"id\":\"14\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 713
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClick",
+      "args": [
+        "[Station.abl]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[text()='Albany-Rensselaer, NY (ALB)'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[text()='Albany-Rensselaer, NY (ALB)']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'Beta-MCM', ip: '1.1.95.10', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 506 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '172.21.31.20', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-21_19_06_15_5302, entityType=remote_web_driver, deviceName=F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70, serverConnector=, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-10-21_19_06_15_5302, password=, webdriver.remote.sessionid=95efe9b2-9973-4257-880b-d933e0802f2c, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161021/RemoteWebDriver_16-10-21_19_06_15_5302.xml&ownerId=uzie@perfectomobile.com&sharingCode=58e0f381-2870-4e61-b595-c2be13b8b71a, locationContextEnabled=true, takesScreenshot=true, browserName=MobileOS, scriptName=RemoteWebDriver, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/161021/RemoteWebDriver_16-10-21_19_06_15_5302.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161021/RemoteWebDriver_16-10-21_19_06_15_5302.xml&ownerId=uzie@perfectomobile.com&sharingCode=58e0f381-2870-4e61-b595-c2be13b8b71a, user=, cssSelectorsEnabled=true}]\nSession ID: 95efe9b2-9973-4257-880b-d933e0802f2c\n*** Element info: {Using=xpath, value=//*[text()='Albany-Rensselaer, NY (ALB)']}",
+          "subLogs": [],
+          "duration": 507
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[text()='Albany-Rensselaer, NY (ALB)'], using=xpath}"
+          ],
+          "result": "id: 15",
+          "subLogs": [],
+          "duration": 568
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[text()='Albany-Rensselaer, NY (ALB)']",
+            "{\"id\":\"15\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 442
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iSet",
+      "args": [
+        "[30, bus.number]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"status_train_num\"], using=xpath}"
+          ],
+          "result": "id: 16",
+          "subLogs": [],
+          "duration": 737
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id=\"status_train_num\"]",
+            "{\"id\":\"16\",\"value\":[\"30\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 351
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClick",
+      "args": [
+        "[status.button]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"un_actionSubmit\"], using=xpath}"
+          ],
+          "result": "id: 17",
+          "subLogs": [],
+          "duration": 370
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id=\"un_actionSubmit\"]",
+            "{\"id\":\"17\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 336
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I open browser to webpage \"http://amtrak.com\"",
+      "type": "TestStepPass",
+      "duration": 3061,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"train.status\"",
+      "type": "TestStepPass",
+      "duration": 2289,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"find.Station\"",
+      "type": "TestStepPass",
+      "duration": 3249,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"Station.abl\"",
+      "type": "TestStepPass",
+      "duration": 2523,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I enter \"30\" to \"bus.number\"",
+      "type": "TestStepPass",
+      "duration": 1089,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"status.button\"",
+      "type": "TestStepPass",
+      "duration": 707,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

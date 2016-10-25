@@ -1,0 +1,44 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@Web"
+        ],
+        "lineNo": 4.0,
+        "name": "Search QMetry",
+        "referece": "scenarios/goolge.feature",
+        "sign": "scenarios.goolge.feature.Search QMetry()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1477069596127,
+      "duration": 562,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@Web"
+        ],
+        "lineNo": 9,
+        "name": "Search QMetry with results",
+        "referece": "scenarios/goolge.feature",
+        "sign": "scenarios.goolge.feature.Search QMetry with results()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]"
+      },
+      "dependsOn": [],
+      "startTime": 1477069596129,
+      "duration": 559,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

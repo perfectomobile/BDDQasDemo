@@ -1,0 +1,72 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "password": "Perfecto1",
+      "driverClass": "io.appium.java_client.android.AndroidDriver",
+      "automationName": "Appium",
+      "takesScreenshot": true,
+      "browserName": "MobileOS",
+      "javascriptEnabled": true,
+      "platformName": "android",
+      "user": "uzie@perfectomobile.com",
+      "cssSelectorsEnabled": true,
+      "applicationName": "Calculator"
+    },
+    "browser-actual-capabilities": {
+      "rotatable": "true",
+      "testGridReportUrl": "https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-21_17_43_24_5212",
+      "entityType": "remote_web_driver",
+      "serverConnector": "",
+      "deviceName": "00FAB026E230B238",
+      "platform": "ANY",
+      "executionId": "uzie@perfectomobile.com_RemoteWebDriver_16-10-21_17_43_24_5212",
+      "password": "",
+      "webdriver.remote.sessionid": "a6dbed74-c9be-4df6-966a-82bbe2243b40",
+      "driverClass": "io.appium.java_client.android.AndroidDriver",
+      "automationName": "Appium",
+      "host": "beta.perfectomobile.com",
+      "singleTestReportUrl": "https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161021/RemoteWebDriver_16-10-21_17_43_24_5212.xml&ownerId=uzie@perfectomobile.com&sharingCode=6addc218-9d01-47ed-adcd-d594f4f3190c",
+      "locationContextEnabled": "true",
+      "takesScreenshot": "true",
+      "browserName": "MobileOS",
+      "scriptName": "RemoteWebDriver",
+      "javascriptEnabled": "true",
+      "reportKey": "PRIVATE:RemoteWebDriver/161021/RemoteWebDriver_16-10-21_17_43_24_5212.xml",
+      "platformName": "android",
+      "windTunnelReportUrl": "https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161021/RemoteWebDriver_16-10-21_17_43_24_5212.xml&ownerId=uzie@perfectomobile.com&sharingCode=6addc218-9d01-47ed-adcd-d594f4f3190c",
+      "user": "",
+      "cssSelectorsEnabled": "true",
+      "applicationName": "Calculator"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "9-RC3",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "21-Oct-2016 13:28:13"
+    },
+    "run-parameters": {
+      "env.resources": "resources/common;resources/android",
+      "resources": "resources/common",
+      "baseurl": "http://www.google.com"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_45",
+      "os.arch": "x86_64",
+      "host": "UziMac.local",
+      "os.name": "Mac OS X",
+      "user.name": "uzie",
+      "os.version": "10.11.1"
+    }
+  },
+  "startTime": 1477071827961,
+  "endTime": 1477071853587
+}

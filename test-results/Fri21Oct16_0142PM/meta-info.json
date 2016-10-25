@@ -1,0 +1,15 @@
+{
+  "name": "QAF-Gherkin-Demo",
+  "status": "fail",
+  "tests": [
+    "GherkinTest",
+    "BDDTestandroid",
+    "BDDTestios"
+  ],
+  "total": 6,
+  "pass": 4,
+  "fail": 2,
+  "skip": 0,
+  "startTime": 1477071726917,
+  "endTime": 1477071811473
+}

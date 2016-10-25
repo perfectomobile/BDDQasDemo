@@ -1,0 +1,54 @@
+14:55:45 scenario.file.loc[Ljava.lang.String;@2bbf4b8b
+14:55:45 loading feature file: /Users/uzie/Documents/dev/workspace/QAFGherkin/./scenarios/Amtrak.feature
+14:55:45 loading feature file: /Users/uzie/Documents/dev/workspace/QAFGherkin/./scenarios/demo.feature
+14:55:45 Excluded SCENARIO - Say Hi:null
+14:55:45 Excluded SCENARIO - Say hello should skip:null
+14:55:45 Excluded SCENARIO - Using Gherkin examples table:null
+14:55:45 Excluded SCENARIO - Using QAF data-provider:null
+14:55:45 loading feature file: /Users/uzie/Documents/dev/workspace/QAFGherkin/./scenarios/goolge.feature
+14:55:45 Excluded SCENARIO - Search QMetry:null
+14:55:45 Excluded SCENARIO - Search QMetry with results:null
+14:55:45 Excluded SCENARIO - Search Keyword:null
+14:55:45 loading feature file: /Users/uzie/Documents/dev/workspace/QAFGherkin/./scenarios/restwsdemo.feature
+14:55:45 Excluded SCENARIO - Basic example:null
+14:55:45 total test found: 2
+14:55:53 
+
+Executing scenario: amtrak - find station - 
+14:55:54 Invoking Teststep: Given I open browser to webpage "http://amtrak.com" with arguments: [http://amtrak.com]
+14:55:57 Completed Teststep: Given I open browser to webpage "http://amtrak.com" with arguments: [http://amtrak.com]
+14:55:57 Invoking Teststep: Then I click on "train.status" with arguments: [train.status]
+14:55:58 Completed Teststep: Then I click on "train.status" with arguments: [train.status]
+14:55:58 Invoking Teststep: Then I click on "find.Station" with arguments: [find.Station]
+14:56:01 Completed Teststep: Then I click on "find.Station" with arguments: [find.Station]
+14:56:01 Invoking Teststep: Then I click on "Station.abl" with arguments: [Station.abl]
+14:56:03 Completed Teststep: Then I click on "Station.abl" with arguments: [Station.abl]
+14:56:03 Invoking Teststep: Then I enter "45" to "bus.number" with arguments: [45, bus.number]
+14:56:05 Completed Teststep: Then I enter "45" to "bus.number" with arguments: [45, bus.number]
+14:56:05 Invoking Teststep: Then I click on "status.button" with arguments: [status.button]
+14:56:05 Completed Teststep: Then I click on "status.button" with arguments: [status.button]
+14:56:05 Competed scenario: amtrak - find station with status SUCESS
+14:56:24 
+
+Executing scenario: amtrak - buy ticket - 
+14:56:24 Invoking Teststep: Given I open browser to webpage "http://amtrak.com" with arguments: [http://amtrak.com]
+14:56:28 Completed Teststep: Given I open browser to webpage "http://amtrak.com" with arguments: [http://amtrak.com]
+14:56:28 Invoking Teststep: Then I wait "20" seconds for "buy.ticket" to appear with arguments: [20, buy.ticket]
+14:56:30 Completed Teststep: Then I wait "20" seconds for "buy.ticket" to appear with arguments: [20, buy.ticket]
+14:56:30 Invoking Teststep: Then I click on "buy.ticket" with arguments: [buy.ticket]
+14:56:31 Completed Teststep: Then I click on "buy.ticket" with arguments: [buy.ticket]
+14:56:31 Invoking Teststep: Then I enter "NYP" to "ticket.from" with arguments: [NYP, ticket.from]
+14:56:34 Completed Teststep: Then I enter "NYP" to "ticket.from" with arguments: [NYP, ticket.from]
+14:56:34 Invoking Teststep: Then I enter "BBY" to "ticket.to" with arguments: [BBY, ticket.to]
+14:56:34 Completed Teststep: Then I enter "BBY" to "ticket.to" with arguments: [BBY, ticket.to]
+14:56:34 Invoking Teststep: Then I scroll down
+14:56:35 Completed Teststep: Then I scroll down
+14:56:35 Invoking Teststep: Then I click on "find.train" with arguments: [find.train]
+14:56:37 Completed Teststep: Then I click on "find.train" with arguments: [find.train]
+14:56:37 Invoking Teststep: Then I wait for "2" seconds with arguments: [2]
+14:56:39 Completed Teststep: Then I wait for "2" seconds with arguments: [2]
+14:56:39 Invoking Teststep: Then I click on "continue" with arguments: [continue]
+14:56:39 Completed Teststep: Then I click on "continue" with arguments: [continue]
+14:56:39 Invoking Teststep: Then I must see text "Departure" with arguments: [Departure]
+14:56:50 Completed Teststep: Then I must see text "Departure" with arguments: [Departure]
+14:56:50 Competed scenario: amtrak - buy ticket with status SUCESS

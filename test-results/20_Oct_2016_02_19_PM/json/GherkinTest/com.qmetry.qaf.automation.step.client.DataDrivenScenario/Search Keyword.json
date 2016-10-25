@@ -1,0 +1,141 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "I_am_on_Google_Search_Page",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.google.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 11352
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "I_search_for",
+      "args": [
+        "[QAF StackOverflow]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=q, using=name}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 27137
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.name: q",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 840
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=q, using=name}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 780
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: q",
+            "{\"id\":\"1\",\"value\":[\"QAF StackOverflow\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 799
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=btnG, using=name}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 367
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: btnG",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 350
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "it_should_have_in_search_results",
+      "args": [
+        "[using QAF]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=using QAF, using=partial link text}"
+          ],
+          "result": "[id: 3, id: 4]",
+          "subLogs": [],
+          "duration": 2656
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I am on Google Search Page",
+      "type": "TestStepPass",
+      "duration": 11353,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I search for \"QAF StackOverflow\"",
+      "type": "TestStepPass",
+      "duration": 30276,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then it should have \"using QAF\" in search results",
+      "type": "TestStepPass",
+      "duration": 4857,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected using QAF present : Actual using QAF present",
+          "type": "Pass",
+          "screenshot": "../img/Search Keyword_d85klc4h9oa057233.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}
